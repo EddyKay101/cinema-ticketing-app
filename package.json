@@ -1,0 +1,22 @@
+{
+  "name": "cinema-tickets-javascript",
+  "description": "This is a coding exercise which will allow you to demonstrate how you code and your approach to a given problem.",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=16.15.1"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "jest --config=jest.config.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "babel-jest": "^29.7.0",
+    "jest": "28.1.1",
+    "mocha": "10.0.0"
+  }
+}
