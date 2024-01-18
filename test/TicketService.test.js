@@ -64,9 +64,9 @@ describe('TicketService', () => {
 
   describe('totalAmount', () => {
     it('should calculate total amount correctly', () => {
-      const requests = [new TicketTypeRequest('ADULT', 2), new TicketTypeRequest('CHILD', 1)];
+      const requests = [new TicketTypeRequest('ADULT', 3), new TicketTypeRequest('CHILD', 1)];
       const result = ticketService.totalAmount(requests);
-      expect(result).toBe(50); // (20 * 2) + (10 * 1)
+      expect(result).toBe(70); // (30 * 2) + (10 * 1)
     });
   });
 

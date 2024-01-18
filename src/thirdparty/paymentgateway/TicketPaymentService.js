@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 export default class TicketPaymentService {
-  makePayment(accountId, totalAmountToPay) {
+  static makePayment(accountId, totalAmountToPay) {
     if (!Number.isInteger(accountId)) {
       throw new TypeError('accountId must be an integer');
     }
