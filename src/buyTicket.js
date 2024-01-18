@@ -1,6 +1,4 @@
 import TicketService from "./pairtest/TicketService.js";
-import TicketPaymentService from "./thirdparty/paymentgateway/TicketPaymentService.js";
-import SeatReservationService from "./thirdparty/seatbooking/SeatReservationService.js";
 import TicketTypeRequest from "./pairtest/lib/TicketTypeRequest.js";
 
 try {
